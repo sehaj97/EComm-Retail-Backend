@@ -1,0 +1,26 @@
+{
+  "name": "ecomm-retail-backend",
+  "version": "1.0.0",
+  "description": "backend api for internet retail company",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sehaj97/EComm-Retail-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sehaj97/EComm-Retail-Backend/issues"
+  },
+  "homepage": "https://github.com/sehaj97/EComm-Retail-Backend#readme",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.13.0"
+  }
+}
