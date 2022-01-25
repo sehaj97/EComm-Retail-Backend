@@ -28,6 +28,53 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
+### testing Routes
+
+#### categories
+```text
+get all
+http://localhost:3001/api/categories
+get one
+http://localhost:3001/api/categories/:id
+create
+http://localhost:3001/api/categories
+update
+http://localhost:3001/api/categories/:id
+delete
+http://localhost:3001/api/categories/:id
+
+```
+
+#### tags
+```text
+get all
+http://localhost:3001/api/tags
+get one
+http://localhost:3001/api/tags/:id
+create
+http://localhost:3001/api/tags
+update
+http://localhost:3001/api/tags/:id
+delete
+http://localhost:3001/api/tags/:id
+
+```
+
+#### products
+```text
+get all
+http://localhost:3001/api/products
+get one
+http://localhost:3001/api/products/:id
+create
+http://localhost:3001/api/products
+update
+http://localhost:3001/api/products/:id
+delete
+http://localhost:3001/api/products/:id
+
+```
+
 ### Database Models
 
 - `Category`
